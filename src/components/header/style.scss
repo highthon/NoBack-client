@@ -1,13 +1,15 @@
 @import '../../style/global.style.scss';
+@import '../../style/common.scss';
 .header-tit{
-    background-color: lightgray;
+    background-color: $red;
+    color: white;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 65%;
     padding: 15px 30px;
     border-radius: 200px;
     position: fixed;
-    top: 20px;
+    top: 10px;
     z-index: 100;
     .header-tit-logo{
 
