@@ -13,9 +13,9 @@ export default function Main3() {
               작성하는 솔직하고 생생한 후기
             </p>
           </div>
-          
-          <div>
-            <ClassReview/>
+
+          <div className="classreview-tit-div">
+            <ClassReview />
           </div>
         </div>
       </div>
