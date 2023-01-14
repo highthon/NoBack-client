@@ -1,0 +1,35 @@
+@import '../../style/global.style.scss';
+@import '../../style/common.scss';
+.lesson-tit {
+    display: inline-block;
+    padding-bottom: 30px;
+  .lesson-img {
+    display: inline-block;
+    img {
+        border-radius: 10px;
+        width: 15vw;
+    }
+  }
+  .lesson-info {
+    padding-top: 5px;
+    font-family: 'PretendardMedium';
+    .lesson-title {
+        font-size: 15px;
+        width: 90%;
+    }
+    .lesson-category {
+        padding-top: 3px;
+        font-size: 13px;
+        color: $gray400;
+    }
+    .lesson-money {
+        padding-top: 10px;
+        font-family: 'PretendardBold';
+        color: $red;
+        font-size: 15px;
+    }
+  }
+  &:hover{
+    cursor: pointer;
+  }
+}

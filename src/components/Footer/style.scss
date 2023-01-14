@@ -1,0 +1,45 @@
+@import '../../style/common.scss';
+@import '../../style/global.style.scss';
+.footer-tit{
+    position: relative;
+    bottom: 0px;
+    padding: 2% 17.5%;
+    font-family: 'PretendardMedium';
+    .footer-tit-top{
+        .footer-top-top{
+            display: flex;
+            justify-content: space-between;
+            .footer-top-img{
+                img{
+                    width: 8vw;
+                }
+            }
+            .footer-top-info{
+                a{
+                    padding-left:20px;
+                    font-size: 13px;
+                    color: $gray600;
+                }
+            }
+        }
+        .footer-top-bottom{
+            padding-top:  30px;
+            p{
+                padding-bottom: 5px;
+                font-size: 13px;
+                color: $gray600;
+            }
+            padding-bottom: 25px;
+        }
+    }
+    hr{
+    }
+    .footer-tit-bottom{
+        padding-top: 15px;
+        text-align: right;
+        a{
+            font-size: 10px;
+            color: $gray600;
+        }
+    }
+}

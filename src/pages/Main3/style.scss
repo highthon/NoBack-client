@@ -1,0 +1,26 @@
+@import '../../style/common.scss';
+@import '../../style/global.style.scss';
+.main3-tit{
+    background-color: $white;
+    height: 68vh;
+    .main3-tit-div{   
+        align-items: center;
+        display: flex;
+        justify-content: space-between; 
+        padding: 0% 17.5%;
+        position: relative;
+        top: 150px;
+        .main3-tit-review{
+            .main3-review-tit{
+                color: $red;
+                font-size: 22px;
+                font-family: 'PretendardSemiBold';
+            }
+            .main3-review-explain{
+                padding-top: 10px;
+                font-size: 11px;
+
+            }
+        }
+    }
+}

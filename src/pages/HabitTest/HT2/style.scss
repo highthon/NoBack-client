@@ -1,0 +1,42 @@
+@import '../../../style/common.scss';
+@import '../../../style/global.style.scss';
+.test-tit{
+    background-color: white;
+    height: 100vh;
+    .test-tit-div{
+        text-align: center;   
+        align-items: center;
+        padding: 0% 17.5%;
+        position: relative;
+        top: 200px;
+        .test-tit-div-div{
+            .test-tit-question{
+                p{
+                    font-family: 'PretendardBold';
+                    font-size: 20px;
+                }
+                
+            }
+            .test-tit-dap{
+                position: relative;
+                top: 80px;
+                .dap-button1{
+
+                }
+                .dap-button2{
+                    position: relative;
+                    top: 15px;
+                }
+                button{
+                    font-family: 'PretendardMedium';
+                    border-radius: 8px;
+                    color: white;
+                    width: 30vw;
+                    background-color: $red;
+                    padding: 30px 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

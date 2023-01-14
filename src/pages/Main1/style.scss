@@ -11,6 +11,7 @@
       text-align: center;
       img {
         position: absolute;
+    
       }
       #a {
         font-family: "PretendardBold";
@@ -26,9 +27,14 @@
           top: 20px;
           right: 10px;
         }
+        a{
+          
+          animation: fadein 2s  
+        }
       }
       .main-tit-ment-2 {
-        a {
+        a { 
+          animation: fadein 5s  ;
           position: relative;
           right: 70px;
         }
@@ -41,6 +47,7 @@
           right: 20px;
         }
         .ment-third {
+          animation: fadein 8s  ;
           position: relative;
           left: 5px;
         }
@@ -51,6 +58,7 @@
         }
       }
       .ment-four {
+        animation: fadein 11s  ;
         position: relative;
         left: 50px;
       }
@@ -81,3 +89,14 @@
         
     }
 }
+
+
+@keyframes fadein {
+  /* 효과를 동작시간 동안 0 ~ 1까지 */
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

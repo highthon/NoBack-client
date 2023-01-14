@@ -1,0 +1,172 @@
+@import "../../style/global.style.scss";
+@import "../../style/common.scss";
+.Detail-tit {
+  height: 170vh;
+  .Detail-tit-div {
+    padding: 0% 17.5%;
+    position: relative;
+    top: 150px;
+    .Detail-tit-top {
+      display: flex;
+      justify-content: space-between;
+      .Detail-tit-top-left {
+        img {
+          width: 28vw;
+          border-radius: 5px;
+        }
+      }
+      .Detail-tit-top-right {
+        width: 50%;
+        .Detail-tit-right-top {
+          .detail-top-day {
+            padding-bottom: 5px;
+            color: $gray600;
+            font-size: 13px;
+            font-family: "PretendardMedium";
+          }
+          .detail-top-title {
+            padding-bottom: 4px;
+            font-family: "PretendardBold";
+            font-size: 23px;
+          }
+          .detail-top-address {
+            padding-bottom: 5px;
+            font-size: 12px;
+            color: $gray600;
+          }
+          .detail-top-type {
+            color: $gray400;
+            font-size: 12px;
+            padding-bottom: 20px;
+          }
+        }
+        .Detail-tit-right-top2 {
+          .Detail-tit-right-review {
+            padding-bottom: 10px;
+            .detail-right-star {
+              font-size: 20px;
+              color: $yellow;
+              padding-right: 20px;
+            }
+            .detail-right-reviewcount {
+              font-size: 15px;
+            }
+          }
+          .Detail-tit-right-explain {
+            .detail-right-explain {
+              font-size: 15px;
+              font-family: "PretendardMedium";
+            }
+          }
+          padding-bottom: 20px;
+        }
+        .Detail-tit-right-top3 {
+          background-color: $gray50;
+          display: flex;
+          justify-content: space-around;
+          padding: 10px 20px;
+          border-radius: 5px;
+          .detail-right-difficulty {
+            text-align: center;
+          }
+          .detail-right-gray-top {
+            color: $gray500;
+            font-size: 13px;
+            text-align: center;
+          }
+          .detail-right-gray-bottom {
+            text-align: center;
+          }
+        }
+        .detail-right-time {
+          .detail-right-gray-top {
+          }
+          .detail-right-gray-bottom {
+          }
+        }
+        .Detail-tit-right-button {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 20px;
+          .right-button-front {
+            .right-front-name {
+              color: $gray600;
+              font-size: 15px;
+            }
+            .right-front-money {
+              color: $red;
+              font-size: 20px;
+              font-family: "PretendardBold";
+            }
+          }
+          .right-button-back {
+            .button-sinchung {
+              background-color: $red;
+              color: white;
+              padding: 15px 40px;
+              border-radius: 1000px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      padding-bottom: 50px;
+    }
+    .Detail-tit-bottom {
+      font-family: "PretendardMedium";
+      .detail-tit-sugang-hugi {
+        text-align: left;
+      }
+      .detail-tit-jaksung-hugi {
+        font-size: 15px;
+        padding-bottom: 10px;
+        text-align: right;
+        color: $green;
+      }
+      .Detail-tit-bottom2 {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 80px;
+        background-color: $gray50;
+        text-align: center;
+        .Detail-bottom-left {
+        }
+        .detail-bottom-aver {
+        }
+        .detail-starpoint {
+            position: relative;
+            top: 15px;
+          font-size: 30px;
+        }
+        .detail-star {
+          font-size: 20px;
+          color: $yellow; //$gray100
+          position: relative;
+          top: 30px;
+        }
+      }
+      .Detail-bottom-bar {
+      }
+      .Detail-bottom-right {
+        img {
+          width: 10vw;
+        }
+      }
+    }
+  }
+  .Detail-bottom-review{
+    padding-top: 30px;
+    .sunse{
+        padding-bottom: 20px;
+        font-family: 'PretendardMedium';
+        color: $green;
+        p{
+            display: inline-block;
+            &:hover{
+                cursor: pointer;
+            }
+
+        }
+    }
+  }
+}

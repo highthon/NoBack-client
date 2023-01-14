@@ -1,0 +1,50 @@
+@import '../../style/common.scss';
+@import '../../style/global.style.scss';
+.Look-tit {
+  height: 170vh;
+  .Look-tit-div {
+    padding: 0% 17.5%;
+    position: relative;
+    top: 130px;
+    .look-tit-title{
+        p{
+            font-size: 20px;
+            font-family: 'PretendardSemiBold';
+        }
+    }
+    .look-category{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        .look-tit-category{
+            .category{
+                font-family: 'PretendardMedium';
+                color: $gray500;
+                padding-right:40px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }   
+        }
+        #green{
+            color: $green;
+            font-family: 'PretendardBold';
+        }
+        .look-category-sun{
+            a{
+                color: $green;
+                font-family: 'PretendardMedium';
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .look-lesson{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+  }
+}

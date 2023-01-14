@@ -2,7 +2,6 @@
 @import '../../style/common.scss';
 .header-tit{
     background-color: $red;
-    color: white;
     display: flex;
     justify-content: space-between;
     width: 65%;
@@ -10,17 +9,25 @@
     border-radius: 200px;
     position: fixed;
     top: 14px;
+    align-items: center;
     z-index: 100;
     .header-tit-logo{
-
+        img{
+            width: 5vw;
+        }
     }
     .header-tit-buttons{
         font-size: 12px;
+        .header-home{
+            color: white;
+            padding-right: 20px;
+        }
         .header-viewclass{
+            color: white;
             padding-right: 20px;
         }
         .header-habittest{
-            
+            color: white;
         }
     }
 }
