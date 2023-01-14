@@ -1,5 +1,6 @@
 import "./style.scss";
 import Categories from "./Category";
+import Lesson from "../../components/Lesson";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 export default function Look() {
   // const [selectedCategory, setSelectedCategory] = useState(Categories.all);
@@ -29,7 +30,11 @@ export default function Look() {
             </a>
           </div>
         </div>
+        <div className="look-lesson">
+          <Lesson />
+        </div>
       </div>
+      <div></div>
     </div>
   );
 }

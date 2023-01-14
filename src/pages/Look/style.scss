@@ -13,15 +13,14 @@
         }
     }
     .look-category{
-        position: relative;
-        top: 30px;
+        padding-top: 30px;
         display: flex;
         justify-content: space-between;
         .look-tit-category{
             .category{
                 font-family: 'PretendardMedium';
                 color: $gray500;
-                padding-right:20px;
+                padding-right:40px;
                 &:hover{
                     cursor: pointer;
                 }
@@ -29,13 +28,18 @@
         }
         .look-category-sun{
             a{
-                color: $green   ;
+                color: $green;
                 font-family: 'PretendardMedium';
                 &:hover{
                     cursor: pointer;
                 }
             }
         }
+    }
+    .look-lesson{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
     }
   }
 }
