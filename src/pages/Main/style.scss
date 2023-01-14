@@ -1,21 +1,22 @@
 @import "../../style/global.style.scss";
 @import "../../style/common.scss";
 .main-tit {
+    background-color: $white;
   height: 100vh;
   .main-tit-tle {
     position: relative;
-    top: 70px;
+    top: 60px;
     padding: 0% 17.5%;
     .main-tit-ment {
       text-align: center;
-      font-family: "PretendardBold";
-      font-weight: 500;
-      font-size: 6rem;
-      color: $red;
       img {
         position: absolute;
       }
-      a{
+      #a {
+        font-family: "PretendardBold";
+        font-weight: 500;
+        font-size: 6rem;
+        color: $red;
         z-index: 30;
       }
       .main-tit-ment-1 {
@@ -39,20 +40,44 @@
           top: 10px;
           right: 20px;
         }
-        .ment-third{
-            position: relative;
-            left: 5px;
+        .ment-third {
+          position: relative;
+          left: 5px;
         }
         .img-3-2 {
           width: 8vw;
-          bottom: 135px;
-          right: 410px;
+          bottom: 140px;
+          right: 405px;
         }
       }
-      .ment-four{
-          position: relative;
-          right: 5px;
+      .ment-four {
+        position: relative;
+        left: 50px;
       }
     }
   }
+}
+.main-button-svg {
+  width: 7vw;
+  position: relative;
+  bottom: -5px;
+}
+.main-test-button{
+    display: inline-block;
+    position: relative; 
+    top: 20px;
+    left: 90px;
+    line-height: 1.2px;
+    text-align: left;
+    img{
+
+    }
+    a{
+        position: relative;
+        left: 125px;
+        bottom: 40px;
+        color: $green;
+        font-size: 11px;
+        
+    }
 }
