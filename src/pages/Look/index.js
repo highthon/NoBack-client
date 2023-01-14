@@ -2,10 +2,10 @@ import "./style.scss";
 import Categories from "./Category";
 import Lesson from "../../components/Lesson";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import LessonData from "./lesson.json";
 export default function Look() {
   // const [selectedCategory, setSelectedCategory] = useState(Categories.all);
   const categories = [
-    Categories.all,
     Categories.cook,
     Categories.crafts,
     Categories.art,
@@ -20,6 +20,7 @@ export default function Look() {
 
         <div className="look-category">
           <div className="look-tit-category">
+            <a className="category" id='green'>전체</a>
             {categories.map((c) => (
               <a className="category">{c.text}</a>
             ))}
@@ -31,7 +32,15 @@ export default function Look() {
           </div>
         </div>
         <div className="look-lesson">
-          <Lesson />
+          {LessonData.lessons.map((m) => (
+            <Lesson
+              id={m.id}
+              name={m.name}
+              type={m.type}
+              money={m.money}
+              link={m.link}
+            />
+          ))}
         </div>
       </div>
       <div></div>

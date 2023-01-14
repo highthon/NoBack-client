@@ -1,7 +1,10 @@
 @import '../../style/global.style.scss';
 @import '../../style/common.scss';
 .lesson-tit {
+    display: inline-block;
+    padding-bottom: 30px;
   .lesson-img {
+    display: inline-block;
     img {
         border-radius: 10px;
         width: 15vw;
@@ -12,6 +15,7 @@
     font-family: 'PretendardMedium';
     .lesson-title {
         font-size: 15px;
+        width: 90%;
     }
     .lesson-category {
         padding-top: 3px;

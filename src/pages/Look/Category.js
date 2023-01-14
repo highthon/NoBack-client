@@ -1,8 +1,5 @@
 const Categories = {
-  all: {
-    text: "전체",
-    uri: "all",
-  },
+
   cook: {
     text: "베이킹 / 요리",
     uri: "cook",

@@ -1,7 +1,7 @@
 @import '../../style/common.scss';
 @import '../../style/global.style.scss';
 .Look-tit {
-  height: 100vh;
+  height: 170vh;
   .Look-tit-div {
     padding: 0% 17.5%;
     position: relative;
@@ -26,6 +26,10 @@
                 }
             }   
         }
+        #green{
+            color: $green;
+            font-family: 'PretendardBold';
+        }
         .look-category-sun{
             a{
                 color: $green;
@@ -37,6 +41,7 @@
         }
     }
     .look-lesson{
+        flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
         padding-top: 70px;
