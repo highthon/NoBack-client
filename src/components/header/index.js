@@ -1,7 +1,7 @@
 import "./style.scss";
 export default function Header() {
   return (
-    <>
+    <div className="header-t">
       <div className="header-tit">
         <div className="header-tit-logo"></div>
         <div className="header-tit-buttons">
@@ -9,6 +9,6 @@ export default function Header() {
           <a className="header-habittest">취미테스트</a>
         </div>
       </div>
-    </>
+    </div>
   );
 }

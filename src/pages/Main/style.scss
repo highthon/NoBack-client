@@ -1,0 +1,14 @@
+.main-tit{
+    background-color: red;
+    height: 100vh;
+    .main-tit-tle{
+        position: relative;
+        top: 100px;
+        padding: 0% 15%;
+        background-color: #ffff00;
+        .main-tit-ment{
+            font-family: 'PretendardBold';  
+            font-size: 6rem;
+        }
+    }
+}
