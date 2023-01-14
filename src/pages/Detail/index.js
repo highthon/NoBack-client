@@ -67,7 +67,12 @@ export default function Detail() {
                   <p className="right-front-money">60,000원</p>
                 </div>
                 <div className="right-button-back">
-                  <button className="button-sinchung">신청하기</button>
+                  <button
+                    className="button-sinchung"
+                    onClick={() => alert("신청되었습니다!")}
+                  >
+                    신청하기
+                  </button>
                 </div>
               </div>
             </div>
@@ -98,9 +103,13 @@ export default function Detail() {
             </div>
           </div>
           <div className="Detail-bottom-review">
-            <div className="sunse"><p>최신순  <MdOutlineKeyboardArrowDown/></p></div>
+            <div className="sunse">
+              <p>
+                최신순 <MdOutlineKeyboardArrowDown />
+              </p>
+            </div>
             <div className="lookreview">
-                <LookReview/>
+              <LookReview />
             </div>
           </div>
         </div>

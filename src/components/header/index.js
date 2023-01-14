@@ -7,7 +7,7 @@ export default function Header() {
       <div className="header-tit">
         <div className="header-tit-logo">
           <Link to="/">
-          <img src="/img/logo.svg"/>
+            <img src="/img/logo.svg" />
           </Link>
         </div>
         <div className="header-tit-buttons">
@@ -17,7 +17,9 @@ export default function Header() {
           <Link to="/look">
             <a className="header-viewclass">클래스 둘러보기</a>
           </Link>
-          <a className="header-habittest">취미테스트</a>
+          <Link to="/test">
+            <a className="header-habittest">취미테스트</a>
+          </Link>
         </div>
       </div>
     </div>

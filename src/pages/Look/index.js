@@ -20,7 +20,9 @@ export default function Look() {
 
         <div className="look-category">
           <div className="look-tit-category">
-            <a className="category" id='green'>전체</a>
+            <a className="category" id="green">
+              전체
+            </a>
             {categories.map((c) => (
               <a className="category">{c.text}</a>
             ))}
@@ -43,7 +45,6 @@ export default function Look() {
           ))}
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

@@ -1,30 +1,29 @@
-import "./style.scss";
-import ClassReview from "../../components/ClassReview/index";
 import { Link } from "react-router-dom";
-export default function HabitTest() {
+import "./style.scss";
+export default function HT3() {
   return (
     <>
       <div className="test-tit">
         <div className="test-tit-div">
           <div className="test-tit-div-div">
             <div className="test-tit-question">
-              <p> 어떤것을 따르는 편인가요?</p>
+              <p>예쁜 것 보다는 실용적인 것을 좋아하나요?</p>
             </div>
             <div className="test-tit-dap">
               <div>
-                <Link to="/test2">
+                <Link to="/test4">
                   <button className="dap-button1">
-                    감보다는 정확한 수치를 따르는 편이다.
+                    실용적인 것 보다는 예쁘고 귀여운게 짝이다.
                   </button>
                 </Link>
               </div>
-              <Link to="/test3">
-                <div>
+              <div>
+                <Link to="/test4">
                   <button className="dap-button2">
-                    수치보다는 나의 감을 따르는 편이다.
+                    예쁜 것도 좋지만 실용적인 것이 더 좋다.
                   </button>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
