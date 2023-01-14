@@ -1,0 +1,23 @@
+@import '../../style/global.style.scss';
+.header-tit{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 30px;
+    border-radius: 200px;
+    position: relative;
+    top: 20px;
+    .header-tit-logo{
+
+    }
+    .header-tit-buttons{
+        .header-viewclass{
+            padding-right: 20px;
+        }
+        .header-habittest{
+            
+        }
+    }
+}

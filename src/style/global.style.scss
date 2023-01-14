@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: 'PretendardMedium';
+  margin: 0;
+  padding: 0;
+  line-height: 135%;
+}
+
+body{
+  overflow-x : hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+input, textarea { 
+  -moz-user-select: auto;
+  -webkit-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+@font-face {
+    font-family: 'PretendardBold';
+    src: url('../fonts/Pretendard-Bold.woff');
+    font-style: normal;
+    src: url('../fonts/Pretendard-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'PretendardSemiBold';
+    src: url('../fonts/Pretendard-SemiBold.woff');
+    font-style: normal;
+    src: url('../fonts/Pretendard-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'PretendardMedium';
+    src: url('../fonts/Pretendard-Medium.woff');
+    font-style: normal;
+    src: url('../fonts/Pretendard-Medium.woff') format('woff');
+}
