@@ -1,6 +1,8 @@
 import "./style.scss";
 import { AiFillStar } from "react-icons/ai";
 import { RiPencilLine } from "react-icons/ri";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import LookReview from "../../components/LookReview";
 export default function Detail() {
   return (
     <>
@@ -93,6 +95,12 @@ export default function Detail() {
               <div className="Detail-bottom-right">
                 <img src="/img/graph.png" />
               </div>
+            </div>
+          </div>
+          <div className="Detail-bottom-review">
+            <div className="sunse"><p>최신순  <MdOutlineKeyboardArrowDown/></p></div>
+            <div className="lookreview">
+                <LookReview/>
             </div>
           </div>
         </div>

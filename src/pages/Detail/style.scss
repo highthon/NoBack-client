@@ -1,7 +1,7 @@
 @import "../../style/global.style.scss";
 @import "../../style/common.scss";
 .Detail-tit {
-  height: 100vh;
+  height: 150vh;
   .Detail-tit-div {
     padding: 0% 17.5%;
     position: relative;
@@ -110,6 +110,7 @@
           }
         }
       }
+      padding-bottom: 50px;
     }
     .Detail-tit-bottom {
       font-family: "PretendardMedium";
@@ -118,6 +119,7 @@
       }
       .detail-tit-jaksung-hugi {
         font-size: 15px;
+        padding-bottom: 10px;
         text-align: right;
         color: $green;
       }
@@ -150,6 +152,21 @@
           width: 10vw;
         }
       }
+    }
+  }
+  .Detail-bottom-review{
+    padding-top: 30px;
+    .sunse{
+        padding-bottom: 20px;
+        font-family: 'PretendardMedium';
+        color: $green;
+        p{
+            display: inline-block;
+            &:hover{
+                cursor: pointer;
+            }
+
+        }
     }
   }
 }

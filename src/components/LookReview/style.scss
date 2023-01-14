@@ -1,0 +1,29 @@
+@import "../../style/common.scss";
+@import "../../style/global.style.scss";
+
+.lookreview-tit {
+    background-color: $gray50;
+    padding: 30px;
+    width: 30vw;
+  .lookreview-tit-div {
+    .lookreview-top {
+        display: flex;
+        justify-content: space-between;
+      .lookreview-nickname {
+        font-size: 15px;
+        font-family: 'PretendardSemiBold';
+      }
+      .lookreview-star {
+        font-size: 20px;
+        color: $yellow;
+      }
+    }
+    .lookreview-bottom {
+        padding-top: 10px;
+      .lookreview-bottom-review {
+        font-size: 15px;
+        font-family: 'PretendardMedium';
+      }
+    }
+  }
+}
