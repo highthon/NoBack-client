@@ -11,7 +11,7 @@
             justify-content: space-between;
             .footer-top-img{
                 img{
-
+                    width: 8vw;
                 }
             }
             .footer-top-info{
@@ -23,12 +23,13 @@
             }
         }
         .footer-top-bottom{
+            padding-top:  30px;
             p{
                 padding-bottom: 5px;
                 font-size: 13px;
                 color: $gray600;
             }
-            padding-bottom: 15px;
+            padding-bottom: 25px;
         }
     }
     hr{

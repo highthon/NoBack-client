@@ -5,7 +5,11 @@ export default function Header() {
   return (
     <div className="header-t">
       <div className="header-tit">
-        <div className="header-tit-logo"></div>
+        <div className="header-tit-logo">
+          <Link to="/">
+          <img src="/img/logo.svg"/>
+          </Link>
+        </div>
         <div className="header-tit-buttons">
           <Link to="/">
             <a className="header-home">홈</a>

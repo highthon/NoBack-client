@@ -9,9 +9,12 @@
     border-radius: 200px;
     position: fixed;
     top: 14px;
+    align-items: center;
     z-index: 100;
     .header-tit-logo{
-
+        img{
+            width: 5vw;
+        }
     }
     .header-tit-buttons{
         font-size: 12px;

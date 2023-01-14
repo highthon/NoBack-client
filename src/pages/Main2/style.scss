@@ -1,0 +1,39 @@
+@import '../../style/common.scss';
+@import '../../style/global.style.scss';
+.main2-tit{
+    background-color: $red;
+    height: 100vh;
+    background-image: url('../../../public/img/main2.png');
+    background-size: 54vw;
+    background-repeat: no-repeat;
+    background-position: 65% 54%;
+    .main2-tit-div{  
+        color: $white; 
+        align-items: center;
+        padding: 0% 17.5%;
+        position: relative;
+        top: 200px;
+        .main2-tit-name{
+            p{
+                font-size: 35px;
+                font-family: 'PretendardMedium';
+            }
+        }
+        .main2-tit-classview-button{
+            position: relative;
+            top: 10px;
+            p{
+                color: white;
+                .plus{
+                    font-size: 30px;
+                }
+                .ment{
+                    position: relative;
+                    left: 7px;
+                    bottom: 7px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer-tit-top">
           <div className="footer-top-top">
             <div className="footer-top-img">
-              <img />
+              <img src="/img/logo2.svg"/>
             </div>
             <div className="footer-top-info">
               <a>이용약관</a>
