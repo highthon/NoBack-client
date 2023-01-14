@@ -4,7 +4,6 @@ export default function Main() {
   return (
     <>
       <div className="main-tit">
-        <Header />
         <div className="main-tit-tle">
           <div className="main-tit-ment">
             <p className="main-tit-ment-1">
